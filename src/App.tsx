@@ -11,7 +11,7 @@ const Nav = () => (
   <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 mix-blend-difference font-syne">
     <div className="flex items-center gap-4">
       <img src={LOGO_URL} alt="VLF Logo" className="w-10 h-10 rounded-full border border-white/20 grayscale" />
-      <span className="text-xs font-black uppercase tracking-[0.4em] text-white">VubeLuxForeigns NYC</span>
+      <span className="text-xs font-black uppercase tracking-[0.4em] text-white">VibeLuxForeigns NYC</span>
     </div>
     <div className="flex items-center gap-8">
       <span className="hidden md:block text-[10px] font-bold uppercase tracking-[0.5em] text-white/50">EST 2024 // NYC 🗽</span>
@@ -117,7 +117,7 @@ const TestimonialHero = () => (
        <h2 className="text-2xl md:text-4xl font-black leading-tight tracking-tight mb-16 italic uppercase -mt-8">"The transition from the flight deck to the driver's seat was absolutely seamless. Precision manifested in metal."</h2>
        <div className="flex flex-col items-center gap-4">
           <div className="w-24 h-px bg-white/20" />
-          <span className="text-[10px] font-bold uppercase tracking-[1em] text-white/40">Julian_Vane // CEO_ARCH</span>
+          <span className="text-[10px] font-bold uppercase tracking-[1em] text-white/40">Julian Vane // CEO ARCH</span>
        </div>
     </div>
   </section>
@@ -181,7 +181,7 @@ const StatsHero = () => (
     </div>
     <div className="h-24 bg-black text-white flex items-center justify-between px-12 overflow-hidden mt-8 md:mt-0">
        <div className="flex gap-24 whitespace-nowrap animate-marquee">
-          {[...Array(10)].map((_, i) => <span key={i} className="text-[10px] font-bold tracking-[1.2em]">VubeLuxForeigns SYSTEM STABLE OPERATIONAL FLOWING NYC 🗽 DYNAMIC FLT MGMT <span className="text-accent-red">///</span></span>)}
+          {[...Array(10)].map((_, i) => <span key={i} className="text-[10px] font-bold tracking-[1.2em]">VibeLuxForeigns SYSTEM STABLE OPERATIONAL FLOWING NYC 🗽 DYNAMIC FLT MGMT <span className="text-accent-red">///</span></span>)}
        </div>
     </div>
   </section>
@@ -281,7 +281,7 @@ const Footer = () => (
         <button className="text-4xl md:text-5xl font-black italic border-b-8 border-accent-red pb-2 hover:bg-accent-red hover:text-white transition-all px-4">BOOK NOW 📞</button>
         <div className="flex flex-col items-end gap-2 mt-12 md:mt-0">
           <span className="text-[8px] font-bold opacity-20 uppercase tracking-[1em]">SYSTEM VERSION 2024.1.2</span>
-          <span className="text-[10px] opacity-20 uppercase tracking-[0.5em]">© VubeLuxForeigns OPERATIONS GLOBAL</span>
+          <span className="text-[10px] opacity-20 uppercase tracking-[0.5em]">© VibeLuxForeigns OPERATIONS GLOBAL</span>
         </div>
       </div>
     </div>
